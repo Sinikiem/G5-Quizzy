@@ -109,7 +109,7 @@ import java.util.TimeZone
 private object QuizzyUI {
     val ColorPurple = Color(0xFFA874FF)
     val ColorOrange = Color(0xFFFFB26B)
-    val ColorGreen = Color(0xFFC5FFD8)
+    val ColorGreen = Color(0xFF6FE3C1)
     val ColorRed = Color(0xFFFF6B6B)
     val ColorDarkGrey = Color(0xFF9E9E9E)
     val ColorLightGrey = Color(0xFFBDBDBD)
