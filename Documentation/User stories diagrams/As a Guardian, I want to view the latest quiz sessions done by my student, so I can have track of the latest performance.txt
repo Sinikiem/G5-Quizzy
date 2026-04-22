@@ -1,0 +1,19 @@
+User Story #146
+
+
+User Story :
+As a Guardian, I want to view the latest quiz sessions done by my student, so I can keep track of the latest performance.
+
+Overview :
+This feature lets the guardian see the student’s most recent quiz sessions on the dashboard. To keep the page neat and easy to read, only the latest 15 quiz sessions are shown.
+
+Implementation :
+For this user story, the system was updated to get the latest 15 quiz sessions from the database and arrange them by the most recent date and time. After that, the information was displayed in a scrollable list in the guardian dashboard.
+
+Each quiz session shows important details like :
+• completion date
+• completion time
+• achieved score
+
+Result :
+With this feature, the guardian can quickly check the student’s latest quiz performance without having to go through all previous records.

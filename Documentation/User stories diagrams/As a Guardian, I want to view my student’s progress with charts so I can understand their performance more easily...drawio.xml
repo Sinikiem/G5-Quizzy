@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.6">
+  <diagram name="Página-1" id="GolZldAOCkH2PN2bo0QY">
+    <mxGraphModel dx="1213" dy="657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="K77kzqQDaXjPccxUSgoY-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="120" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="-HcdpaQ9FqDAIqtegGnh-86" edge="1" parent="1" source="K77kzqQDaXjPccxUSgoY-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="-HcdpaQ9FqDAIqtegGnh-89">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K77kzqQDaXjPccxUSgoY-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Chart view (Bar chart view is default)" vertex="1">
+          <mxGeometry height="80" width="120" x="80" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="-HcdpaQ9FqDAIqtegGnh-29" edge="1" parent="1" source="K77kzqQDaXjPccxUSgoY-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="K77kzqQDaXjPccxUSgoY-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="140" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-HcdpaQ9FqDAIqtegGnh-73" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Bar chart" vertex="1">
+          <mxGeometry height="330" width="200" x="860" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-HcdpaQ9FqDAIqtegGnh-71" parent="-HcdpaQ9FqDAIqtegGnh-73" style="ellipse;whiteSpace=wrap;html=1;" value="Each bar = one quiz" vertex="1">
+          <mxGeometry height="80" width="120" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-HcdpaQ9FqDAIqtegGnh-72" parent="-HcdpaQ9FqDAIqtegGnh-73" style="ellipse;whiteSpace=wrap;html=1;" value="Y axis = Score" vertex="1">
+          <mxGeometry height="80" width="120" x="40" y="135" as="geometry" />
+        </mxCell>
+        <mxCell id="-HcdpaQ9FqDAIqtegGnh-75" parent="-HcdpaQ9FqDAIqtegGnh-73" style="ellipse;whiteSpace=wrap;html=1;" value="X axis = time &lt;br&gt;(early to late)" vertex="1">
+          <mxGeometry height="80" width="120" x="40" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="-HcdpaQ9FqDAIqtegGnh-76" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Line chart" vertex="1">
+          <mxGeometry height="330" width="200" x="1110" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-HcdpaQ9FqDAIqtegGnh-77" parent="-HcdpaQ9FqDAIqtegGnh-76" style="ellipse;whiteSpace=wrap;html=1;" value="Each node = one quiz" vertex="1">
+          <mxGeometry height="80" width="120" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-HcdpaQ9FqDAIqtegGnh-78" parent="-HcdpaQ9FqDAIqtegGnh-76" style="ellipse;whiteSpace=wrap;html=1;" value="Y axis = Score" vertex="1">
+          <mxGeometry height="80" width="120" x="40" y="135" as="geometry" />
+        </mxCell>
+        <mxCell id="-HcdpaQ9FqDAIqtegGnh-79" parent="-HcdpaQ9FqDAIqtegGnh-76" style="ellipse;whiteSpace=wrap;html=1;" value="X axis = time &lt;br&gt;(early to late)" vertex="1">
+          <mxGeometry height="80" width="120" x="40" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="-HcdpaQ9FqDAIqtegGnh-80" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Pie chart" vertex="1">
+          <mxGeometry height="200" width="200" x="1360" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-HcdpaQ9FqDAIqtegGnh-81" parent="-HcdpaQ9FqDAIqtegGnh-80" style="ellipse;whiteSpace=wrap;html=1;" value="Each slice = correct/incorrect" vertex="1">
+          <mxGeometry height="80" width="120" x="40" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-HcdpaQ9FqDAIqtegGnh-85" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="All chart input data come from the quiz list, this means that they are affected by filtering." vertex="1">
+          <mxGeometry height="30" width="316" x="1044" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-HcdpaQ9FqDAIqtegGnh-103" edge="1" parent="1" source="-HcdpaQ9FqDAIqtegGnh-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="-HcdpaQ9FqDAIqtegGnh-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-HcdpaQ9FqDAIqtegGnh-87" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Filter" vertex="1">
+          <mxGeometry height="80" width="120" x="294" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="-HcdpaQ9FqDAIqtegGnh-88" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Apply" vertex="1">
+          <mxGeometry height="30" width="60" x="250" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="-HcdpaQ9FqDAIqtegGnh-92" edge="1" parent="1" source="-HcdpaQ9FqDAIqtegGnh-89" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="-HcdpaQ9FqDAIqtegGnh-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-HcdpaQ9FqDAIqtegGnh-97" edge="1" parent="1" source="-HcdpaQ9FqDAIqtegGnh-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="-HcdpaQ9FqDAIqtegGnh-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-HcdpaQ9FqDAIqtegGnh-98" edge="1" parent="1" source="-HcdpaQ9FqDAIqtegGnh-89" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="-HcdpaQ9FqDAIqtegGnh-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-HcdpaQ9FqDAIqtegGnh-104" edge="1" parent="1" source="-HcdpaQ9FqDAIqtegGnh-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="-HcdpaQ9FqDAIqtegGnh-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-HcdpaQ9FqDAIqtegGnh-89" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Active quiz sesion list (can be filtered or not)" vertex="1">
+          <mxGeometry height="80" width="120" x="294" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="-HcdpaQ9FqDAIqtegGnh-90" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Consume" vertex="1">
+          <mxGeometry height="30" width="60" x="220" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="-HcdpaQ9FqDAIqtegGnh-106" edge="1" parent="1" source="-HcdpaQ9FqDAIqtegGnh-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="-HcdpaQ9FqDAIqtegGnh-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-HcdpaQ9FqDAIqtegGnh-91" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Bar chart" vertex="1">
+          <mxGeometry height="80" width="120" x="540" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="-HcdpaQ9FqDAIqtegGnh-107" edge="1" parent="1" source="-HcdpaQ9FqDAIqtegGnh-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="-HcdpaQ9FqDAIqtegGnh-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-HcdpaQ9FqDAIqtegGnh-95" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Line chart" vertex="1">
+          <mxGeometry height="80" width="120" x="540" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="-HcdpaQ9FqDAIqtegGnh-108" edge="1" parent="1" source="-HcdpaQ9FqDAIqtegGnh-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="-HcdpaQ9FqDAIqtegGnh-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-HcdpaQ9FqDAIqtegGnh-96" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Pie chart" vertex="1">
+          <mxGeometry height="80" width="120" x="540" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="-HcdpaQ9FqDAIqtegGnh-100" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Create&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="60" x="440" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="-HcdpaQ9FqDAIqtegGnh-109" edge="1" parent="1" source="-HcdpaQ9FqDAIqtegGnh-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="830" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-HcdpaQ9FqDAIqtegGnh-105" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Display chart" vertex="1">
+          <mxGeometry height="80" width="120" x="690" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="-HcdpaQ9FqDAIqtegGnh-110" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="810" y="470" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
